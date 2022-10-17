@@ -1,5 +1,5 @@
-let m = require("./greeting/index");
-let message = "Hello Rahul! Have a Great Day";
+let m = require("../greeting/index");
+let message = "Hello Rahul!" + m;
 
 module.exports = message;
 
